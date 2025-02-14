@@ -28,7 +28,7 @@ public class DataLoader implements CommandLineRunner {
     @Transactional
     public void run(String... args) {
         String requiredProperty = env.getRequiredProperty("spring.jpa.hibernate.ddl-auto");
-        if (requiredProperty.equals("create-drop")) {
+        if (requiredProperty.equals("update")) {
             String defaultPassword = "admin";
             User defaultAdmin = new User("Admin", "Admin", 20, "admin@mail.ru", defaultPassword);
             userService.saveDefaultUser(defaultAdmin);
