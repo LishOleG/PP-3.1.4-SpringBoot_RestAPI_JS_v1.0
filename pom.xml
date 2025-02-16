@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.my.rest</groupId>
-    <artifactId>JPP-3.1.4</artifactId>
+    <artifactId>JS_FetchAPI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>JPP-3.1.4</name>
-    <description>JPP-3.1.4</description>
+    <name>JS_FetchAPI</name>
+    <description>JS_FetchAPI</description>
     <url/>
     <licenses>
         <license/>

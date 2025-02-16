@@ -29,8 +29,8 @@ spring:
       false
     hibernate:
       ddl-auto:
-#       create-drop
-        update
+       create-drop
+#        update
 
 
 #spring.application.name=JPP-3.1.4
